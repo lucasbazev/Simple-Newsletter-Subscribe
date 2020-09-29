@@ -28,7 +28,7 @@ main h1 {
     align-items: center;
 }
 
-input {
+input[type="email"] {
     height: 35px;
     width: 305px;
 
@@ -40,7 +40,7 @@ input {
     outline: 0;
 }
 
-button {
+input[type="submit"] {
     height: 40px;
     width: 308px;
 
@@ -62,7 +62,7 @@ button {
     transition: 0.4s;
 }
 
-button:hover {
+input[type="submit"]:hover {
     background-color: rgb(115, 35, 212);
 }
 
